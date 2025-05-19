@@ -80,7 +80,7 @@ Mount AWS credentials stored on the EC2 instance in /home/ec2-user/.aws to allow
 Atlantis provides a simple web interface where you can see the status of Terraform runs triggered by your GitHub pull requests.  
 
 ✅ Steps to check Atlantis in your browser:  
-&nbsp;&nbsp;Open your browser and navigate to: http://<EC2-Public-IP>:4141  
+&nbsp;&nbsp;Open your browser and navigate to: http://EC2-Public-IP:4141  
 &nbsp;&nbsp;Replace <EC2-Public-IP> with your actual EC2 instance public IP address or DNS name.  
 &nbsp;&nbsp;&nbsp;&nbsp;Expected page:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You should see the Atlantis homepage or a simple interface that confirms the service is running.  
